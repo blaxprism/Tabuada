@@ -1,0 +1,23 @@
+body{
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(3,135,0,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(3,135,0,1) 100%);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(3,135,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#038700",GradientType=1);
+	color: white;
+	font-family: verdana,arial;
+}
+fieldset{
+	border-color: blue;
+	border-bottom-style: none;
+	border-right-style: none;
+	border-radius: 5px;
+}
+legend{
+	font-weight: bold;
+}
+input{
+	border-color: blue;
+	background-color: lightgray;
+	color: black;
+}
